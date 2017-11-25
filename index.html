@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>vincent</title>
+    <link rel="stylesheet" type="text/css" href="css/vincent_final.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Vincent van Gogh</h1>
+    </header>
+    <main>
+        <div id="description">
+            <div>
+                <p><strong>Vincent Willem van Gogh</strong> (30 March 1853 – 29 July 1890) was a Dutch <a target="_blank" href="https://en.wikipedia.org/wiki/Post-Impressionism">Post-Impressionist</a> painter who is among the most famous and influential figures in the history of Western art. In just over a decade he created about 2,100 artworks, including around 860 oil paintings, most of them in the last two years of his life. They include landscapes, still lifes, portraits and self-portraits, and are characterised by bold colours and dramatic, impulsive and expressive brushwork that contributed to the foundations of modern art. His suicide at 37 followed years of mental illness and poverty.</p>
+                <br>
+                <p>If You want to know more about Vincent, please, subscribe to our weekly newsletter &#x270C;</p>
+                <form onsubmit="sayThankYou()">
+                    <input type="email" autofocus id="userEmail">
+                    <input type="submit" value="subscribe">
+                </form>
+                <br>
+
+                <div id="birthday">
+                    <p id="days">00</p>
+                    <p class="timeRefDays">days</p>
+                    <p id="hours">00</p>
+                    <p class="timeRefHours">hours</p>
+                    <p id="minutes">00</p>
+                    <p class="timeRefMinutes">minutes</p>
+                    <p id="seconds">00</p>
+                    <p class="timeRefSeconds">seconds</p>
+                    <p>until Vincents birthday</p>
+                </div>
+
+            </div>
+        </div>
+        <div id="divider"></div>
+
+        <div id="picture">
+
+            <p id="pictureMessage">0, 0</p>
+            <img id="image" src="img/vincent.jpg" onmousemove="mousePos(event)">
+
+        </div>
+
+    </main>
+    <footer>
+        <p>&copy;PZORG 2017</p>
+    </footer>
+    <!--<audio autoplay="true" src="music/vincent.mp3" type="audio/mpeg" id="song">Your browser does not support the audio element.</audio>-->
+    <script type="text/javascript" src="js/vincent_final.js">
+    </script>
+</body>
+
+</html>

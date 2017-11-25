@@ -1,0 +1,135 @@
+body {
+    background-image: url("/img/background.jpg");
+    color: white;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+html,
+body {
+    /*setup html and body to take 100% of the viewport*/
+    height: 100%;
+}
+
+h1,
+p1,
+body {
+    /*setup margin to be zero since h1, p and body have some default margin*/
+    margin: 0;
+
+}
+
+p {
+    padding: 10px;
+    text-align: justify;
+}
+
+form {
+    padding: 10px;
+}
+
+header {
+    /*put the header in the top 20% of the body*/
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 35%;
+    height: 20%;
+    /*centers the header's content both vertically and horizontally*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    /*put the main to strach between header and footer*/
+    position: absolute;
+    top: 20%;
+    bottom: 20%;
+    right: 0px;
+    left: 0px;
+}
+
+footer {
+    /*put the footer in bottom 20% of the body*/
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 35%;
+    height: 20%;
+    /*centers the header's content both vertically and horizontally*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    border: thics solid blue;
+    width: 50%;
+}
+
+#description {
+    /*put description div to take left side*/
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    width: 35%;
+    /*centers the description's content both vertically and horizontally*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#divider {
+    /*put devider div to take one pixel and strech vertically*/
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 35%;
+    width: 1px;
+    background-color: darkgrey;
+}
+
+#picture {
+    /*put picture div to take right side*/
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 36%;
+    right: 0px;
+    /*centers the picture's content both vertically and horizontally*/
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+a:link {
+    color: coral;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: aqua;
+    text-decoration: underline;
+    background-color: transparent;
+}
+
+#birthday p {
+    padding: 1px;
+    display: inline-block;
+}
+
+#birthday {
+    margin-left: 10px;
+}
+
+
